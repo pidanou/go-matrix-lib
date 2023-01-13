@@ -2,7 +2,7 @@ package matrix
 
 import "fmt"
 
-func RotateMatrix(times int, Matrix [][]string) [][]string {
+func RotateMatrixClockwise(Matrix [][]string) [][]string {
 
 	var rows = len(Matrix)
 	var cols = len(Matrix[0])
